@@ -4,7 +4,11 @@ logs
 npm-debug.log*
 
 .env
-/uploads
+
+# exclude everything
+uploads/images/*
+# exception to the rule
+!uploads/images/.gitkeep
 
 # Runtime data
 pids
